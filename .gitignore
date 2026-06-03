@@ -1,0 +1,17 @@
+# Python virtual environment
+venv/
+
+# FastF1 download cache — large, and the deployed app never needs it
+data/cache/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# NOTE: do NOT ignore models/ — the .pkl model MUST be committed for deployment.
