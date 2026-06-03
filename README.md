@@ -5,8 +5,7 @@ times from tire compound, tire age, race progress, and stint number. It trains
 regression models on real 2024 F1 race data (via the FastF1 library) and serves
 predictions through an interactive Streamlit web dashboard.
 
-**Live app:** _(paste your Streamlit Community Cloud URL here after deploying)_
-
+**Live app:** https://pitvision.streamlit.app
 ---
 
 ## What it does
@@ -105,9 +104,9 @@ Opens at http://localhost:8501
 
 | Metric | Result |
 |--------|--------|
-| MAE    | _(fill in after training)_ |
-| R²     | _(fill in after training)_ |
-| Best model | _(fill in: Random Forest / XGBoost / etc.)_ |
+| MAE    | 0.612s (XGBoost) |
+| R²     | 0.600 |
+| Best model | XGBoost |
 
 ---
 
